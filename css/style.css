@@ -8,7 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
     line-height: 1.8 !important;
-    background-color: 	#eedfd9;
+    background-color: 	#fff;
 }
 
 html {
@@ -74,8 +74,8 @@ a:hover,a:focus {
 }
 
 .navbar-default {
-    background-color: 	#eedfd9;
-    border-color: 	#eedfd9;
+    background-color: 	#fff;
+    border-color: 	#fff;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
@@ -177,7 +177,7 @@ a:hover,a:focus {
 	font-size:22px;
 	padding-top:60px;
     padding-bottom:25px;
-    background-color: 	#eedfd9;
+    background-color: 	#fff;
 }
 
 
