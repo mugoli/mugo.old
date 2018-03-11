@@ -1,6 +1,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans|Roboto+Mono:300,400|Source+Sans+Pro:300,400');
 
 body {
     padding-top: 70px;
@@ -17,18 +18,18 @@ html {
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'Open Sans', sans-serif;
-	font-weight:200;
+    font-weight:200;
 	color: #222;
 }
 
 p{
-	font-family: 'Playfair Display', serif;
-	font-weight:300;
+	font-family: 'Arial', serif;
+    font-weight:300;
 }
 
 section {
 	padding-top:85px;
-	padding-bottom:85px;
+    padding-bottom:85px;
 }
 
 .no-gutter > [class*='col-'] {
@@ -46,6 +47,10 @@ a:hover,a:focus {
 
 
 /* Navbar */
+
+.navbar {font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;}
 
 .navbar-fixed-top .nav {
     padding: 15px 0;
@@ -174,7 +179,9 @@ a:hover,a:focus {
 /* Intro */
 
 .intro {
-	font-size:22px;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:22px;
 	padding-top:60px;
     padding-bottom:25px;
     background-color: 	#fff;
@@ -436,6 +443,11 @@ a:hover,a:focus {
 }
 .press p {
     line-height:1.7em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #899098;
+    
 }
 
 .press a:link {
@@ -444,8 +456,11 @@ a:hover,a:focus {
 
 .press h4 {
 	padding-top:20px;
-	font-weight:bold;
-	letter-spacing:1px;
+    letter-spacing:1px;
+    font-size: 20px;
+    text-decoration:underline;
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
 }
 
 
