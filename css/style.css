@@ -463,7 +463,10 @@ a:hover,a:focus {
     font-style: normal;
 }
 
-
+.press img {
+    width: 100%;
+    height: auto;
+    }
 
 /* Brand */
 
